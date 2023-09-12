@@ -1,0 +1,16 @@
+@media only screen and (max-width: 400px) {
+    .maininput {
+      width: 180px !important;
+    }
+    .btndiv{
+      text-align: center !important;
+     padding: 5px !important;
+    }
+  }
+  @media only screen and (max-width: 752px) {
+    .maininput {
+      width: 250px !important;
+      margin-top: 5px;
+    }
+    
+  }
