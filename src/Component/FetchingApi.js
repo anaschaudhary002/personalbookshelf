@@ -47,6 +47,7 @@ export default class FetchingApi extends Component {
             return (
                 <>
                     {
+                        (LSData==null)?<h4>Note:-Please Add Books</h4>:
                         this.state.docs.map((item, index) => {
                             if(LSData != null){
                                 for (let i = 0; i < LSData.length; i++) {
